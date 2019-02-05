@@ -23,7 +23,7 @@ sleep 10
 echo "Removing binaries..."
 rm -rf zoombad zoomba-cli zoomba-tx
 echo "Downloading latest binaries"
-wget https://github.com/zoombanet/zoomba/releases/download/v2.4.3/zoomba-linux.tar.gz
+wget https://github.com/zoombacoin/zoomba/releases/Zoomba_1.0.2_Linux.tar
 tar -xzf zoomba-linux.tar.gz
 sudo chmod 755 -R zoomba*
 rm -rf zoomba-linux.tar.gz
@@ -49,6 +49,6 @@ echo -e ${GREEN}"Fourth node is fully synced. Your masternode is running!"${NC}
 sleep 5
 rm -rf /root/zoomba_4masternodes_update.sh
 echo -e ${GREEN}"If you think that this script helped in some way, feel free to donate for our work:"${NC}
-echo -e ${GREEN}"Zoomba address: "${NC}
+echo -e ${GREEN}"Zoomba address: Zh41h9gnCRxDvWaAF1RJonFZNMRDxyTinT"${NC}
 echo -e ${GREEN}"LTC address: LbF8hSejc8oc4L81CrzdYengYBpr6xNczn"${NC}
 echo -e ${GREEN}"The END. You can close now the SSH terminal session"${NC};
